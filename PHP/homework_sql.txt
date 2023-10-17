@@ -1,0 +1,22 @@
+-- create
+CREATE TABLE EMPLOYEE (
+id INTEGER PRIMARY KEY,
+name TEXT NOT NULL,
+age TEXT NOT NULL,
+address TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (01, 'Евгения', '18', 'Барселона');
+INSERT INTO EMPLOYEE VALUES (02, 'Елена', '28', 'Самара');
+INSERT INTO EMPLOYEE VALUES (03, 'Артём', '27', 'Минск');
+INSERT INTO EMPLOYEE VALUES (04, 'Тегмина', '38', 'Москва');
+INSERT INTO EMPLOYEE VALUES (05, 'Тарас', '29', 'Екатеринбург');
+INSERT INTO EMPLOYEE VALUES (06, 'Татьяна ', '28', 'Алматы');
+INSERT INTO EMPLOYEE VALUES (07, 'Екатерина ', '30', 'Москва');
+INSERT INTO EMPLOYEE VALUES (08, 'Евгения ', '35', 'Саратов');
+INSERT INTO EMPLOYEE VALUES (09, 'Юрий ', '27', 'Гомель');
+INSERT INTO EMPLOYEE VALUES (10, 'Рашид', '35', 'Москва');
+
+-- fetch 
+SELECT * FROM EMPLOYEE;
